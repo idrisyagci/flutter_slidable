@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
-void main() => runApp(const MyApp());
+import 'main_demo.dart';
+import 'main_example.dart';
+
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({
@@ -34,14 +37,14 @@ class MyApp extends StatelessWidget {
                     onPressed: doNothing,
                     backgroundColor: Color(0xFFFE4A49),
                     foregroundColor: Colors.white,
-                    icon: Icons.delete,
+                    icon: Icon(Icons.delete),
                     label: 'Delete',
                   ),
                   SlidableAction(
                     onPressed: doNothing,
                     backgroundColor: Color(0xFF21B7CA),
                     foregroundColor: Colors.white,
-                    icon: Icons.share,
+                    icon: Icon(Icons.share),
                     label: 'Share',
                   ),
                 ],
@@ -57,14 +60,14 @@ class MyApp extends StatelessWidget {
                     onPressed: doNothing,
                     backgroundColor: Color(0xFF7BC043),
                     foregroundColor: Colors.white,
-                    icon: Icons.archive,
+                    icon: Icon(Icons.archive),
                     label: 'Archive',
                   ),
                   SlidableAction(
                     onPressed: doNothing,
                     backgroundColor: Color(0xFF0392CF),
                     foregroundColor: Colors.white,
-                    icon: Icons.save,
+                    icon: Icon(Icons.save),
                     label: 'Save',
                   ),
                 ],
@@ -90,14 +93,14 @@ class MyApp extends StatelessWidget {
                     onPressed: doNothing,
                     backgroundColor: Color(0xFFFE4A49),
                     foregroundColor: Colors.white,
-                    icon: Icons.delete,
+                    icon: Icon(Icons.delete),
                     label: 'Delete',
                   ),
                   SlidableAction(
                     onPressed: doNothing,
                     backgroundColor: Color(0xFF21B7CA),
                     foregroundColor: Colors.white,
-                    icon: Icons.share,
+                    icon: Icon(Icons.share),
                     label: 'Share',
                   ),
                 ],
@@ -114,14 +117,14 @@ class MyApp extends StatelessWidget {
                     onPressed: doNothing,
                     backgroundColor: Color(0xFF7BC043),
                     foregroundColor: Colors.white,
-                    icon: Icons.archive,
+                    icon: Icon(Icons.archive),
                     label: 'Archive',
                   ),
                   SlidableAction(
                     onPressed: doNothing,
                     backgroundColor: Color(0xFF0392CF),
                     foregroundColor: Colors.white,
-                    icon: Icons.save,
+                    icon: Icon(Icons.save),
                     label: 'Save',
                   ),
                 ],

@@ -4,23 +4,23 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'common.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp3());
 }
 
 const actions = [
   SlideAction(
     color: Color(0xFFFE4A49),
-    icon: Icons.delete,
+    icon: Icon(Icons.delete),
     label: 'Delete',
   ),
   SlideAction(
     color: Color(0xFF21B7CA),
-    icon: Icons.share,
+    icon: Icon(Icons.share),
     label: 'Share',
   ),
 ];
 
-class MyApp extends StatelessWidget {
+class MyApp3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -207,7 +207,7 @@ class SlideAction extends StatelessWidget {
   }) : super(key: key);
 
   final Color color;
-  final IconData icon;
+  final Widget icon;
   final int flex;
   final String label;
 
